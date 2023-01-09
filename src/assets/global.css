@@ -4,3 +4,13 @@ body {
   font-family: "Noto Sans";
   background-color: #ece6b9;
 }
+
+@font-face {
+  font-family: HyliaSerif;
+  src: url("HyliaSerif.ttf") format("truetype");
+}
+
+h1 {
+  font-family: HyliaSerif;
+  letter-spacing: 4px;
+}
