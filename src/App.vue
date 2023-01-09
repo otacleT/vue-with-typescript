@@ -1,6 +1,10 @@
 <template>
   <div class="app">
     <header class="order">
+      <div class="title">
+        <img src="./assets/heart.svg" alt="site logo" />
+        <h1>Hyrule Jobs</h1>
+      </div>
       <button @click="handleClick('title')">order by title</button>
       <button @click="handleClick('salary')">order by salary</button>
       <button @click="handleClick('location')">order by location</button>
@@ -68,6 +72,17 @@ header {
 }
 header .order {
   margin-top: 20px;
+}
+header .title {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  width: 60px;
+  margin-right: 20px;
+}
+header h1 {
+  font-size: 3em;
 }
 button {
   margin: 0 10px;
